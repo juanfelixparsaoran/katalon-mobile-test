@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC - Order</name>
+   <name>TC - Order3</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>52cd30ca-e873-4e08-b7f1-0d1ebbf511b6</testCaseGuid>
+   <testCaseGuid>abba44d1-ce80-4eff-91cb-8efbb3655782</testCaseGuid>
 </TestCaseEntity>

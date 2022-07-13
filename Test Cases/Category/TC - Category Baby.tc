@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC - Change Profile</name>
+   <name>TC - Category Baby</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>1c461e88-8c52-4ae0-bf18-0a8e3cff80bf</testCaseGuid>
+   <testCaseGuid>649af15c-fec2-47b6-932c-0f3bdccfc81e</testCaseGuid>
 </TestCaseEntity>

@@ -19,9 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('C:\\Users\\095085\\Katalon Studio\\katalon-mobile-test\\APK\\ECommerce -SAMPLE-Android.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/Change Profile/android.widget.ImageView (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/Profile/android.widget.ImageView (1)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Change Profile/android.widget.TextView - Rate Us'), 0)
+Mobile.tap(findTestObject('Object Repository/Profile/android.widget.TextView - Rate Us'), 0)
 
-Mobile.getText(findTestObject('Object Repository/Change Profile/android.view.View - Google Play logo'), 0)
+Mobile.getText(findTestObject('Object Repository/Profile/android.view.View - Google Play logo'), 0)
+
+Mobile.getText(findTestObject('Profile/android.view.View - Solodroid  E-CommerceApp Demo'), 0)
+
+Mobile.closeApplication()
 

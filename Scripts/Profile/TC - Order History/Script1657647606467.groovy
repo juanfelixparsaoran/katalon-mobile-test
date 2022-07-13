@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Order/TC - Order2'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/Change Profile/android.widget.ImageView (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/Profile/android.widget.ImageView (1)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Change Profile/android.widget.FrameLayout'), 0)
+Mobile.tap(findTestObject('Object Repository/Profile/android.widget.FrameLayout'), 0)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/Change Profile/android.widget.LinearLayout'), 0)
+Mobile.verifyElementExist(findTestObject('Object Repository/Profile/android.widget.LinearLayout'), 0)
 
 Mobile.closeApplication()
 

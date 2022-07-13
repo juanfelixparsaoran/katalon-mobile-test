@@ -57,3 +57,5 @@ Mobile.waitForElementPresent(findTestObject('order and checkout/android.widget.B
 
 Mobile.tap(findTestObject('Object Repository/order and checkout/android.widget.Button - OK (1)'), 0)
 
+Mobile.closeApplication()
+

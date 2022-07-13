@@ -19,45 +19,45 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('C:\\Users\\095085\\Katalon Studio\\katalon-mobile-test\\APK\\ECommerce -SAMPLE-Android.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/Change Profile/android.widget.ImageView'), 0)
+Mobile.tap(findTestObject('Object Repository/Profile/android.widget.ImageView'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Change Profile/android.widget.TextView - EDIT'), 0)
+Mobile.tap(findTestObject('Object Repository/Profile/android.widget.TextView - EDIT'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Change Profile/android.widget.RelativeLayout'), 0)
+Mobile.tap(findTestObject('Object Repository/Profile/android.widget.RelativeLayout'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Change Profile/android.widget.EditText - Your Name'), 'Juan', 0)
+Mobile.setText(findTestObject('Object Repository/Profile/android.widget.EditText - Your Name'), 'Juan', 0)
 
-Mobile.tap(findTestObject('Object Repository/Change Profile/android.widget.Button - OK'), 0)
+Mobile.tap(findTestObject('Object Repository/Profile/android.widget.Button - OK'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Change Profile/android.widget.RelativeLayout (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/Profile/android.widget.RelativeLayout (1)'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Change Profile/android.widget.EditText - your.emailgmail.com'), 'juan@gmail.com', 
+Mobile.setText(findTestObject('Object Repository/Profile/android.widget.EditText - your.emailgmail.com'), 'juan@gmail.com', 
     0)
 
-Mobile.tap(findTestObject('Change Profile/android.widget.Button - OK'), 0)
+Mobile.tap(findTestObject('Profile/android.widget.Button - OK'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Change Profile/android.widget.TextView - 628123456789'), 0)
+Mobile.tap(findTestObject('Object Repository/Profile/android.widget.TextView - 628123456789'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Change Profile/android.widget.EditText - 628123456789'), '085263742839', 
+Mobile.setText(findTestObject('Object Repository/Profile/android.widget.EditText - 628123456789'), '085263742839', 
     0)
 
-Mobile.tap(findTestObject('Change Profile/android.widget.Button - OK'), 0)
+Mobile.tap(findTestObject('Profile/android.widget.Button - OK'), 0)
 
-Mobile.tap(findTestObject('Change Profile/android.widget.TextView - Your Address'), 0)
+Mobile.tap(findTestObject('Profile/android.widget.TextView - Your Address'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Change Profile/android.widget.EditText - Your Address'), 'Medan', 0)
+Mobile.setText(findTestObject('Object Repository/Profile/android.widget.EditText - Your Address'), 'Medan', 0)
 
-Mobile.tap(findTestObject('Change Profile/android.widget.Button - OK'), 0)
+Mobile.tap(findTestObject('Profile/android.widget.Button - OK'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Change Profile/android.widget.ImageButton'), 0)
+Mobile.tap(findTestObject('Object Repository/Profile/android.widget.ImageButton'), 0)
 
-Mobile.getText(findTestObject('Object Repository/Change Profile/android.widget.TextView - Juan'), 0)
+Mobile.getText(findTestObject('Object Repository/Profile/android.widget.TextView - Juan'), 0)
 
-Mobile.getText(findTestObject('Object Repository/Change Profile/android.widget.TextView - juangmail.com'), 0)
+Mobile.getText(findTestObject('Object Repository/Profile/android.widget.TextView - juangmail.com'), 0)
 
-Mobile.getText(findTestObject('Object Repository/Change Profile/android.widget.TextView - 085263742839'), 0)
+Mobile.getText(findTestObject('Object Repository/Profile/android.widget.TextView - 085263742839'), 0)
 
-Mobile.getText(findTestObject('Object Repository/Change Profile/android.widget.TextView - Medan'), 0)
+Mobile.getText(findTestObject('Object Repository/Profile/android.widget.TextView - Medan'), 0)
 
 Mobile.closeApplication()
 
